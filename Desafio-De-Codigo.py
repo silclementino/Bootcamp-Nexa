@@ -18,7 +18,7 @@ def encontrar_modelo(caracteristica):
     for chave, valor in caracteristicas_modelos.items():
         if chave.lower() in caracteristica.lower():
             return valor
-    return "modelo não foi encontrado"
+    return "Modelo não encontrado."
 
 # Entrada do usuário
 caracteristica_fornecida = input()
